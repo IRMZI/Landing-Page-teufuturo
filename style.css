@@ -1,0 +1,41 @@
+body{
+    background-color: #242424;
+}
+#header{
+    border-bottom: #FFFFFF;
+    border-style: solid;
+}
+#logorazor{
+    padding: 0;
+    height: 140px;
+    width: auto;
+}
+#lançamento{
+    font-size: 5vmin;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Nunito;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#WKPRO{
+    font-size: 6vmin;
+    font-family: Orbitron;
+    color: #7115F2;
+    text-align: center;
+}
+#OHW{
+    font-size: 7vmin;
+    text-align: center;
+    font-family: Russo One;
+    color: #EF7BDC;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+center{
+    max-width: 100%;
+}
+/* .video{
+    padding: 0;
+    height: 45%;
+} */
