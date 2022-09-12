@@ -50,13 +50,14 @@ center{
     padding-left: 20px;
     padding-bottom: 10px;
 }
-.s2{
-
-}
 #pc{
     padding: 0;
     text-align: right;
 }
 #descPC{
     padding-top: 50px;
+}
+
+.CPU{
+    
 }
