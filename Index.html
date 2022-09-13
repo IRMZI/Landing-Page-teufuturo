@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="fonts.css">
+
     
     <title>Razor Workstation</title>
 </head>
@@ -31,7 +32,21 @@
             <p id="descdesign">+Perfomance</p>
             <p id="descdesign">-RGB</p>
             <p id="descdesign">+Discreto</p>
-            <img width="40%" src="imgs/Estrelas.png" alt="estrelasdeavaliacao">
+            <a href="javascript:void(0)" onclick="Avaliar(1)">
+                <img src="imgs/star1.png" id="s1"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="imgs/star1.png" id="s2"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="imgs/star1.png" id="s3"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imgs/star1.png" id="s4"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                <img src="imgs/star0.png" id="s5"></a>
+                <p id="rating">0</p>
             <div class="button">Orçar!</div>
         </div>
     </div>
@@ -57,9 +72,10 @@
         <center>  <img class="logos img-fluid" src="imgs/logos.png" alt=""> </center>
         </div>
         <div class="row conteudo 5">
-        
+        <h1 id="tituloroxo">Depoimentos</h1>
     </div>
     </div>
 </body>
+<script src="funcoes.js"></script>
 </html>
 
