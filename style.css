@@ -4,11 +4,12 @@ body{
 #header{
     border-bottom: #FFFFFF;
     border-style: solid;
+    position: ;
 }
 #logorazor{
     padding: 0;
-    height: 140px;
-    width: auto;
+    height: auto;
+    width: 150px;
 }
 #titulobranco{
     font-size: 5vmin;
@@ -32,96 +33,79 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-center{
-    max-width: 100%;
-}
-.video{
-    border-bottom: #FFFFFF;
-    border-style: solid;
-}
-.titulo{
-    font-size: 5vmin;
-    color: #FFFFFF;
-    font-family: Nunito;
-}
-.spec1{
-    font-family: Nunito;
-    color:#6B6767;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    
-}
-#pcrazor{
-    text-align: center;
-}
-#textosrazor{
-    text-align: center;
-    padding-right: 25%;
-}
+
 #imagempcrazor{
     height: auto;
-    width: 400px;
-    max-width: 40vmin;
+    width: 500px;
 }
 #titulodesign{
-    margin-top: 50px;
+    padding-top: 10%;
     font-size: 5vmin;
     color: #FFFFFF;
     text-align: start;
     font-family: Nunito;
-    margin-bottom: 10px;
-}
-#tituloprocessador{
-    font-size: 5vmin;
-    color: #FFFFFF;
-    text-align: start;
-    font-family: Nunito;
-    margin-bottom: 10px;
 }
 #descdesign{
     padding: 5px;
     font-size: 3vmin;
     color: #6B6767;
-    text-align: start;
     font-family: Nunito;
 }
-#descprocessador{
+.button{
+    padding: 10px 8px;
+    width: 40%;
+    color: #FFFFFF;
+    border-radius: 5%;
+    background-color: #7115F2;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.SS1{
+margin: 0;
+padding: 0;
+border-bottom: #FFFFFF;
+border-width: 5px;
+border-style: solid;
+}
+.ryzen{
+    padding-top: 20px;
+    text-align: center;
+}
+#tituloryzen{
+    font-size: 5vmin;
+    color: #FFFFFF;
+    font-family: Nunito;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 20%;
+}
+#descryzen{
     font-size: 3vmin;
     color: #6B6767;
-    text-align: start;
     font-family: Nunito;
+    padding-left: 20%;
 }
-#descProcessador{
+#nomeryzen{
     font-size: 3vmin;
-    color: #6B6767;
-    text-align: end;
+    color: #FF3D00;
     font-family: Nunito;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-#videocpu{
-    padding: 50px; 
-    max-width: 80%;
-    height:auto ;
-}
-.donosdaRazor{
-    margin-top: 20px;
-    width: 700px;
-    height: auto;
+.SS2{
+    border-bottom: #FFFFFF;
+border-width: 5px;
+border-style: solid;
 }
 .conteudo3{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.logos{
+.donosdaRazor{
+    margin-top: 20px;
     width: 700px;
     height: auto;
-}
-.conteudo4{
-    border-top: #FFFFFF;
-    border-width: 3px;
-    border-style: solid;
-}
-#depoimentosleft{
-    border-right: #FFFFFF;
-    border-width: 3px;
-    border-style: solid;
 }
