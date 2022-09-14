@@ -12,29 +12,25 @@ body{
     width: 250px;
 }
 
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+nav{
+
+    position: absolute;
+    top: 150px;
+    right: 0;
+    
 }
 
-nav {
-	position: absolute;
-	top: 140px;
-	right: 0;
-}
+nav li{
 
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
+    display:inline;
+    margin: 0 0 0 230px;
 }
-
 nav a {
-	text-transform: uppercase;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 20px;
-	text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 #titulobranco{
     font-size: 5vmin;
@@ -58,7 +54,6 @@ nav a {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
 #imagempcrazor{
     height: auto;
     width: 500px;
