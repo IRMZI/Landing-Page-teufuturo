@@ -12,8 +12,20 @@ body{
     width: 250px;
 }
 
+nav li{
 
+    display:inline;
+    margin: 0 0 0 230px;
+}
 
+nav a {
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
 
 #titulobranco{
     font-size: 5vmin;
