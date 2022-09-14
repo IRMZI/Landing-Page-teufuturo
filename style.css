@@ -4,13 +4,17 @@ body{
 #header{
     border-bottom: #FFFFFF;
     border-style: solid;
-    position: ;
+    position: 0;
 }
 #logorazor{
     padding: 0;
     height: auto;
-    width: 150px;
+    width: 250px;
 }
+
+
+
+
 #titulobranco{
     font-size: 5vmin;
     color: #FFFFFF;
