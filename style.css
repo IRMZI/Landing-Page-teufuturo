@@ -12,6 +12,13 @@ body{
     width: 250px;
 }
 
+nav{
+
+    position: absolute;
+    top: 150px;
+    right: auto;
+}
+
 nav li{
 
     display:inline;
