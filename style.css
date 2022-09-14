@@ -12,28 +12,30 @@ body{
     width: 250px;
 }
 
-nav{
-
-    position: absolute;
-    top: 150px;
-    right: auto;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-nav li{
+nav {
+	position: absolute;
+	top: 140px;
+	right: 0;
+}
 
-    display:inline;
-    margin: 0 0 0 230px;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
 nav a {
-
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
 }
-
 #titulobranco{
     font-size: 5vmin;
     color: #FFFFFF;
