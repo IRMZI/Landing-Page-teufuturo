@@ -13,17 +13,17 @@ body{
 }
 
 nav{
-
     position: absolute;
     top: 150px;
     right: 0;
-    
 }
-
 nav li{
-
     display:inline;
-    margin: 0 0 0 230px;
+}
+nav ul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
 }
 nav a {
     text-transform: uppercase;
@@ -129,3 +129,4 @@ border-style: solid;
     width: 700px;
     height: auto;
 }
+
