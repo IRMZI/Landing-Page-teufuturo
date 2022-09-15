@@ -24,6 +24,7 @@ nav ul{
     display: flex;
     width: 100vw;
     justify-content: space-around;
+    font-family: Nunito;
 }
 nav a {
     text-transform: uppercase;
