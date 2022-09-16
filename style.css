@@ -73,10 +73,11 @@ nav a {
     font-family: Nunito;
 }
 .button{
+    font-size: 20px;
+    font-family:Nunito;
     padding: 10px 8px;
     width: 40%;
     color: #FFFFFF;
-    border-radius: 5%;
     background-color: #7115F2;
     text-align: center;
     user-select: none;
