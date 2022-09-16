@@ -57,7 +57,7 @@ nav a {
 }
 #imagempcrazor{
     height: auto;
-    width: 500px;
+    width: 800px;
 }
 #titulodesign{
     padding-top: 10%;
@@ -118,8 +118,8 @@ border-style: solid;
 }
 .SS2{
     border-bottom: #FFFFFF;
-border-width: 5px;
-border-style: solid;
+    border-width: 5px;
+    border-style: solid;
 }
 .conteudo3{
     margin-top: 50px;
@@ -131,3 +131,67 @@ border-style: solid;
     height: auto;
 }
 
+.foot{
+    padding-top: 10px;
+    border-top: #FFFFFF;
+    border-width: 4px;
+    border-style: solid;
+}
+.imagemfinal{
+    width: 200px;
+}
+
+.footerdesign{
+    padding: 5px;
+    font-size: 1.5vmin;
+    color: #6B6767;
+    font-family: Nunito
+}
+.last{
+    text-align: end;
+}
+#nomertx{
+   color: #1CB82C; 
+   font-size: 4vmin;
+   font-family: Nunito;
+}
+#titulortx{
+    font-size: 5vmin;
+    color: #FFFFFF;
+    font-family: Nunito;
+}
+
+#descrtx{
+    padding-top: 5%;
+    font-size: 3vmin;
+    color: #6B6767;
+    font-family: Nunito;
+}
+.ss3{
+    padding-top: 3%;
+}
+#rtx{
+    width: 60%;
+    height: auto;
+}
+
+.ss4{
+    padding-top: 3%;
+}
+#nomeSSD{
+    color: #7115F2; 
+    font-size: 4vmin;
+    font-family: Nunito;
+}
+#tituloSSD{
+    padding-left: 20%;
+    font-size: 5vmin;
+    color: #FFFFFF;
+    font-family: Nunito
+}
+#descSSD{
+    padding-left: 20%;
+    font-size: 3vmin;
+    color: #6B6767;
+    font-family: Nunito;
+}
