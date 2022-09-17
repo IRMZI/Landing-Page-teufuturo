@@ -33,6 +33,11 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+nav a:hover{
+    color: #7115F2;
+}
+
 #titulobranco{
     font-size: 5vmin;
     color: #FFFFFF;
@@ -196,3 +201,5 @@ border-style: solid;
     color: #6B6767;
     font-family: Nunito;
 }
+
+
