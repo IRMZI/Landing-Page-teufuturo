@@ -1,126 +1,113 @@
-#criadores
-{
-    padding-top: 2%;
-    text-align: center;
-}
-#foto
-{  
-    border-radius: 10%;
-    max-width: 20%;
-    padding-bottom: 1%;
-}
-#botoes
-{
-    padding-top: 3%;
-    
-}
-
-#linkedin
-{
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 15px 32px;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-#github
-{
-background-color: #0e76a8;
-border: none;
-color: white;
-text-align: center;
-font-size: 16px;
-padding: 15px 32px;
-text-decoration: none;
-margin-left: 10px;
-}
-
-#nome
-{
-    color: white;
-    padding-bottom: 2%;
-    font-family: Nunito;
-    font-size: 5vmin;
-}
-
-#funcao
+main
 {
     color:white;
-    font-size: 3vmin;
-    color: #6B6767;
-    font-family: Nunito;
+    margin: 2%;
+}
+#madeby
+{
+    color:white;
+    font-size: 7vmin;
+    padding-top: 0%;
     padding-bottom: 1%;
 }
-
-#prev
+#name
 {
-    background-color: white;
-    border: none;
-    color: black;
+    font-size: 5vmin;
+    font-family: Orbitron;
+    color: #7115F2;
     text-align: center;
-    font-size: 16px;
-    padding: 15px 32px;
-    text-decoration: none;
-    margin-left: 10px;
-    border-radius: 70%;
+    padding-bottom: 1vmin;
 }
 
-#next
+#autor
 {
-    background-color: white;
-    border: none;
-    color: black;
     text-align: center;
-    font-size: 16px;
-    padding: 15px 32px;
-    text-decoration: none;
-    margin-left: 10px;
-    border-radius: 70%;
+    position: relative;
 }
+
+#foto
+{
+    height: 200px;
+    width: 200px;
+}
+
+#textoPrim
+{
+    font-size: 3vmin;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Nunito;
+    margin-left: 150px;
+    margin-right: 150px;
+    position:inherit;
+}
+
+#git
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#retroceder
+{
+
+    text-align: right;
+}
+#retroceder a:hover
+{
+    background-color: pink;
+}
+#avancar
+{
+    text-align: left;
+}
+#ctt
+{
+    border-bottom: #FFFFFF;
+    border-style: solid;
+    position: 0;
+}
+
+.logo a:hover
+{
+    background-color: #7115F2;
+}
+
+
+
+
+
+#roda
+{
+    padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 620px)
+{
+    #textoPrim
+    {
+        font-size: 2vmin; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 530px)
 {
     .headerTxt
     {
         display: none;
     }
-}
-
-@media only screen and (max-width: 630px)
-{
-#botoes
-{
-    padding-top: 10%;
-    
-}
-}
-
-
-@media only screen and (max-width: 250)
-{
-    #linkedin
-{
-    background-color: #6e5494;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 8px;
-    padding: 0px 0px;
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-#github
-{
-background-color: #0e76a8;
-border: none;
-color: white;
-text-align: center;
-font-size: 8px;
-padding: 0px 0px;
-text-decoration: none;
-margin-left: 0px;
-}
 }
