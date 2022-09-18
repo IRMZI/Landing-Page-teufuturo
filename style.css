@@ -13,12 +13,11 @@ body{
 }
 
 nav{
-    position: absolute;
     top: 150px;
     right: 0;
 }
 nav li{
-    display:inline;
+    display: inline;
 }
 nav ul{
     display: flex;
@@ -203,3 +202,12 @@ border-style: solid;
 }
 
 
+@media screen and (max-width:450px){
+    nav ul{
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        font-family: Nunito;
+        flex-direction: column;
+    }
+}
