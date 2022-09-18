@@ -9,6 +9,7 @@ main
     font-size: 7vmin;
     padding-top: 0%;
     padding-bottom: 1%;
+    font-family: Nunito;
 }
 #name
 {
@@ -16,7 +17,8 @@ main
     font-family: Orbitron;
     color: #7115F2;
     text-align: center;
-    padding-bottom: 1vmin;
+    padding-bottom: 4vmin;
+    padding-top: 1vmin;
 }
 
 #autor
@@ -33,6 +35,8 @@ main
 
 #textoPrim
 {
+    padding-top: 5vmin;
+    padding-bottom: 4vmin;
     font-size: 3vmin;
     text-align: center;
     color: #FFFFFF;
@@ -46,7 +50,6 @@ main
 {
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 15px;
 }
 
 #retroceder
@@ -64,14 +67,22 @@ main
 }
 #ctt
 {
-    border-bottom: #FFFFFF;
-    border-style: solid;
+    
     position: 0;
+    text-align: center;
+    padding-bottom: 1vmin;
 }
 
-.logo a:hover
+#ig a:hover
 {
-    background-color: #7115F2;
+    border:4px dashed blue;
+    border-bottom: #FFFFFF;
+    border-style: solid;
+}
+
+.backf
+{
+    padding-top: 150px;
 }
 
 
