@@ -24,7 +24,7 @@ function Avaliar(estrela) {
     document.getElementById("s2").src = "imgs/star1.png";
     document.getElementById("s3").src = "imgs/star1.png";
     document.getElementById("s4").src = "imgs/star1.png";
-    document.getElementById("s5").src = "imgs/star0.png";
+    document.getElementById("s5").src = "imgs/star1.png";
     avaliacao = 4;
    }}
     
@@ -41,7 +41,7 @@ function Avaliar(estrela) {
     document.getElementById("s1").src = "imgs/star1.png";
     document.getElementById("s2").src = "imgs/star1.png";
     document.getElementById("s3").src = "imgs/star1.png";
-    document.getElementById("s4").src = "imgs/star0.png";
+    document.getElementById("s4").src = "imgs/star1.png";
     document.getElementById("s5").src = "imgs/star0.png";
     avaliacao = 3;
    }}
@@ -58,7 +58,7 @@ function Avaliar(estrela) {
     } else {
     document.getElementById("s1").src = "imgs/star1.png";
     document.getElementById("s2").src = "imgs/star1.png";
-    document.getElementById("s3").src = "imgs/star0.png";
+    document.getElementById("s3").src = "imgs/star1.png";
     document.getElementById("s4").src = "imgs/star0.png";
     document.getElementById("s5").src = "imgs/star0.png";
     avaliacao = 2;
@@ -69,13 +69,13 @@ function Avaliar(estrela) {
     if (s2 == url + "imgs/star0.png") {
     document.getElementById("s1").src = "imgs/star1.png";
     document.getElementById("s2").src = "imgs/star1.png";
-    document.getElementById("s3").src = "imgs/star0.png";
+    document.getElementById("s3").src = "imgs/star.png";
     document.getElementById("s4").src = "imgs/star0.png";
     document.getElementById("s5").src = "imgs/star0.png";
     avaliacao = 2;
     } else {
     document.getElementById("s1").src = "imgs/star1.png";
-    document.getElementById("s2").src = "imgs/star0.png";
+    document.getElementById("s2").src = "imgs/star1.png";
     document.getElementById("s3").src = "imgs/star0.png";
     document.getElementById("s4").src = "imgs/star0.png";
     document.getElementById("s5").src = "imgs/star0.png";
@@ -92,7 +92,7 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "imgs/star0.png";
     avaliacao = 1;
     } else {
-    document.getElementById("s1").src = "imgs/star0.png";
+    document.getElementById("s1").src = "imgs/star1.png";
     document.getElementById("s2").src = "imgs/star0.png";
     document.getElementById("s3").src = "imgs/star0.png";
     document.getElementById("s4").src = "imgs/star0.png";

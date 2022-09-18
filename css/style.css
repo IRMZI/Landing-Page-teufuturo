@@ -1,6 +1,17 @@
 body{
     background-color: #242424;
 }
+
+@media screen and (max-width:450px){
+    nav ul{
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        font-family: Nunito;
+        flex-direction: column;
+    }
+}
+
 #header{
     border-bottom: #FFFFFF;
     border-style: solid;
@@ -37,7 +48,7 @@ nav a:hover{
     color: #7115F2;
 }
 
-#titulobranco{
+.titulobranco{
     font-size: 5vmin;
     color: #FFFFFF;
     text-align: center;
@@ -45,7 +56,7 @@ nav a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#tituloroxo{
+.tituloroxo{
     font-size: 6vmin;
     font-family: Orbitron;
     color: #7115F2;
@@ -91,9 +102,6 @@ nav a:hover{
 .SS1{
 margin: 0;
 padding: 0;
-border-bottom: #FFFFFF;
-border-width: 5px;
-border-style: solid;
 }
 .ryzen{
     padding-top: 20px;
@@ -120,11 +128,6 @@ border-style: solid;
     padding-left: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.SS2{
-    border-bottom: #FFFFFF;
-    border-width: 5px;
-    border-style: solid;
 }
 .conteudo3{
     margin-top: 50px;
@@ -174,9 +177,12 @@ border-style: solid;
 }
 .ss3{
     padding-top: 3%;
+    border-bottom: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
 }
 #rtx{
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
@@ -189,25 +195,14 @@ border-style: solid;
     font-family: Nunito;
 }
 #tituloSSD{
-    padding-left: 20%;
     font-size: 5vmin;
     color: #FFFFFF;
     font-family: Nunito
 }
-#descSSD{
-    padding-left: 20%;
+#descSSD{   
     font-size: 3vmin;
     color: #6B6767;
     font-family: Nunito;
 }
 
 
-@media screen and (max-width:450px){
-    nav ul{
-        display: flex;
-        width: 100vw;
-        justify-content: space-around;
-        font-family: Nunito;
-        flex-direction: column;
-    }
-}
