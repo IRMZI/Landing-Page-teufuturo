@@ -47,7 +47,10 @@ nav a {
 nav a:hover{
     color: #7115F2;
 }
-
+.titulos{
+    padding: 0;
+    margin: 0;
+}
 .titulobranco{
     font-size: 5vmin;
     color: #FFFFFF;

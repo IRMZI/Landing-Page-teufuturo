@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/criadores.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
     <title>Criadores</title>
 </head>
@@ -30,7 +31,7 @@
  <!-- Sessão 1-->
         </div>-->
         <main>
-           <div id="borda" class="row align-items-center">
+           <div id="borda" class="row align-items-center" data-anime="top">
                 <div id="retroceder" class="col-2">
                     <img class="backf" id="back" src="imgs/botoes/back.png" onclick="botaoVoltar()" width="30%" height="30%"> 
                 </div>
@@ -46,7 +47,7 @@
                    <img  class="backf" id="next" src="imgs/botoes/next.png" onclick="botaoAvancar()" width="30%" height="30%"> 
                 </div>
            </div>
-           <div id="textoPrim">
+           <div id="textoPrim" data-anime="top">
             <a id="textoPesoal">Desenvolvedor front-end | UI/UX</a>
             </div> 
             <div id="ctt">
@@ -83,4 +84,4 @@
     </body>
 <script src="js/funcoes.js"></script>
 <script src="js/creditos.js"></script>
-<script src="js/nav.js"></script>
+<script src="js/animate.js"></script>
