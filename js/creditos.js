@@ -87,9 +87,9 @@ function lucas()
     document.getElementById('name').innerText = "Lucas";
     
     document.getElementById('foto').src="imgs/autores/quarto.png";
-    document.getElementById("linkedin").href = "";
+    document.getElementById("linkedin").href ="https://www.linkedin.com/in/lucas-henrique-da-silva-a72498200/";
     document.getElementById("git").href = "";
-    document.getElementById("ig").href = "";
+    document.getElementById("ig").href = "http://instagram.com/lucashenrique.dasilva.77";
     document.getElementById('textoPesoal').innerText="Designer e Scrum Master";
 }
 
