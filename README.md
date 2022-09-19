@@ -6,7 +6,7 @@ Created during the #teufuturo course where we were challenged to create a landin
 Technologies used: HTML5, CSS3, JAVASCRIPT, BOOTSTRAP.
 
 #ONE-HIT WONDERS
-Squad Leader: João V. Zannardi
+Squad Leader: João V. 
 Presentation: Douglas
 Scrum M: Lucas H.
 DevLead: Erik
