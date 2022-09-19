@@ -1,3 +1,17 @@
+@media only screen and (max-width: 620px)
+{
+    #textoPrim
+    {
+        font-size: 2vmin; 
+    }
+}
+@media only screen and (max-width: 530px)
+{
+    .headerTxt
+    {
+        display: none;
+    }
+}
 main
 {
     color:white;
@@ -20,7 +34,6 @@ main
     padding-bottom: 4vmin;
     padding-top: 1vmin;
 }
-
 #autor
 {
     text-align: center;
@@ -51,7 +64,6 @@ main
     padding-left: 10px;
     padding-right: 10px;
 }
-
 #retroceder
 {
 
@@ -72,14 +84,12 @@ main
     text-align: center;
     padding-bottom: 1vmin;
 }
-
 #ig a:hover
 {
     border:4px dashed blue;
     border-bottom: #FFFFFF;
     border-style: solid;
 }
-
 .backf
 {
     padding-top: 150px;
@@ -87,33 +97,4 @@ main
 #roda
 {
     padding-top: 20px;
-}
-
-
-@media only screen and (max-width: 620px)
-{
-    #textoPrim
-    {
-        font-size: 2vmin; 
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 530px)
-{
-    .headerTxt
-    {
-        display: none;
-    }
 }

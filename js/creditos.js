@@ -1,5 +1,4 @@
 var posicao = 0;
-
 /*
     document.getElementById('name').innerText = "";
     document.getElementById('foto').src="";
@@ -9,7 +8,6 @@ var posicao = 0;
 
     RAFA - ERIK - JOAO
 */
-
 function botaoVoltar()
 {
     posicao -= 1;
@@ -51,10 +49,6 @@ function botaoAvancar()
         rafa()
     }
 }
-
-
-
-
 function rafa()
 {
     document.getElementById('name').innerText = "Rafael Romariz";
