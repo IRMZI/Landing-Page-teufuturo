@@ -84,12 +84,18 @@ main
     text-align: center;
     padding-bottom: 1vmin;
 }
+<<<<<<< Updated upstream
 #ig a:hover
 {
     border:4px dashed blue;
     border-bottom: #FFFFFF;
     border-style: solid;
 }
+=======
+
+
+
+>>>>>>> Stashed changes
 .backf
 {
     padding-top: 150px;
