@@ -67,7 +67,7 @@ main
 }
 #ctt
 {
-    
+    text-decoration: none;
     position: 0;
     text-align: center;
     padding-bottom: 1vmin;
@@ -84,11 +84,6 @@ main
 {
     padding-top: 150px;
 }
-
-
-
-
-
 #roda
 {
     padding-top: 20px;
