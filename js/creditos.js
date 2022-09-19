@@ -76,8 +76,8 @@ function joao()
 {
     document.getElementById('name').innerText = "João Zanardi";
     document.getElementById('foto').src="imgs/autores/terceiro.png";
-    document.getElementById("linkedin").href = "";
-    document.getElementById("git").href = "";
+    document.getElementById("linkedin").href ="https://www.linkedin.com/in/joao-vitor-565b14250/";
+    document.getElementById("git").href = "https://github.com/joaoVitorZanardi";
     document.getElementById("ig").href = ""; 
     document.getElementById('textoPesoal').innerText="Desenvolvedor e Lider do squad";
 }
@@ -86,7 +86,7 @@ function lucas()
 {
     document.getElementById('name').innerText = "Lucas";
     
-    document.getElementById('foto').src="imgs/autores/terceiro.png";
+    document.getElementById('foto').src="imgs/autores/quarto.png";
     document.getElementById("linkedin").href = "";
     document.getElementById("git").href = "";
     document.getElementById("ig").href = "";
