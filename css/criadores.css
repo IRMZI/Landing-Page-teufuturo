@@ -76,6 +76,7 @@ main
 #avancar
 {
     text-align: left;
+    cursor: pointer;
 }
 #ctt
 {
@@ -97,4 +98,8 @@ main
 #roda
 {
     padding-top: 20px;
+}
+
+#back{
+    cursor: pointer;
 }
